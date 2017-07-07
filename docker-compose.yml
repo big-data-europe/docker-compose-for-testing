@@ -3,7 +3,8 @@ services:
 
   service1:
     image: busybox
+    command: "sleep 60"
 
   service2:
     image: busybox
-
+    command: "sleep 60"
