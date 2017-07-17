@@ -4,6 +4,8 @@ services:
   service1:
     image: busybox
     command: "sleep 60"
+    environment:
+      - PIPELINE_HOST=example.local
 
   service2:
     image: busybox
